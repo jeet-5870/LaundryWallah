@@ -1,0 +1,155 @@
+body,
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkgray;
+}
+nav{
+  background-color: #000000d4;
+  padding: 1.7rem 0;
+}
+
+.nav-left img{
+  height: 3.5rem;
+  margin-bottom: -2.5rem;
+  margin-left: 2rem;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+.nav-right ul li a{
+  color: white;
+  font-size: 1.3rem;
+}
+.nav-right{
+  display: flex;
+  justify-content: right;
+  text-decoration: none;
+}
+.nav-right li{
+  display: inline;
+}
+.nav-right li a{
+  text-decoration: none;
+
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: dimgrey;
+}
+
+.hero {
+  display: flex;
+  width: 98vw;
+  margin: 0; /* Remove margin to avoid scroll */
+  overflow: hidden;
+  margin: 2rem 1rem;
+}
+
+
+.hero-left h1{
+  font-size: 2rem;
+}
+
+.hero-left p{
+  font-size: 1.2rem;
+}
+
+.hero button {
+  font-size: 1.1rem;
+  background-color: grey;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: darkgrey;
+}
+
+
+
+.hero-right img {
+  width: 40vw;
+  object-fit: cover;
+}
+
+
+.Services{
+  margin: 2rem 1rem;
+}
+.Services h2{
+  font-size: 1.7rem;
+}
+
+.Services li{
+  font-size: 1.2rem;
+}
+
+.Price{
+  margin: 2rem 1rem;
+}
+
+/* .Price table{
+  border-collapse: collapse;
+  width: 18%;
+} */
+
+.Price table {
+  width: 20%;
+  margin: auto;
+}
+
+
+.Price table th,
+.Price table td{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.Book{
+  margin: 2rem 1rem;  
+}
+
+.Book form{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.Book form input{
+  border-radius: 1rem;
+}
+
+.Book form input[type="submit"]{
+  background-color: grey;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.Footer{
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

@@ -3,20 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Laundry Wallah</title>
 </head>
 <body>
+  <nav>
+    <div class="nav-left">
+      <img src="Copilot_20250818_040102.png" alt="Logo">
+    </div>
+    <div class="nav-right">
+       <ul>
+        <li><a href="#Hero">Home</a></li>
+        <li><a href="#price">Price</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
   <header>
-    <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
+    <h1>Welcome to Laundry Wallah</h1>
   </header>
-  <section class="About">
-    <p>At Laundry Wallah, we blend tradition with technology to deliver top-notch laundry solutions tailored for modern lifestyles. From regular washed to premium dry cleaning, our services ensure your clothes get the care they deserve. We offer doorstep pickup & delivery, quick turnaround times, and eco-friendly practices-all backed by professional garment expertise.<br><br>
+  <section class="hero" id="Hero">
+    <div class="hero-left">
+      <h1>Laundry Wallah</h1>
+      <p>At Laundry Wallah, we blend tradition with technology to deliver top-notch laundry solutions tailored for modern lifestyles. From regular washed to premium dry cleaning, our services ensure your clothes get the care they deserve. We offer doorstep pickup & delivery, quick turnaround times, and eco-friendly practices-all backed by professional garment expertise.<br><br>
     Whether you're busy professional, student, or business with bulk needs, our team is committed to making your laundry experience seamless, reliable, and refreshingly simple.</p>
+    <button>Book a Service Today</button>
+    </div>
+    <div class="hero-right">
+      <img src="photo-1604335398980-ededcadcc37d.avif" alt="Image">
+    </div>
   </section>
-  <section class="Image">
-    <img src="photo-1604335398980-ededcadcc37d.avif" alt="Image">
-  </section>
-  <section class="Services">
+
+  <!-- <section class="Services">
     <h2>Our Services</h2>
     <ul>
       <li>Washing and Drying</li>
@@ -26,10 +45,10 @@
       <li>Express Services</li>
       <li>Special Garment Care</li>
     </ul>
-  </section>
-  <section class="Price">
+  </section> -->
+  <section class="Price" id="price">
     <h2>Price List</h2>
-    <table border="">
+    <table>
       <tr>
         <td>Washing and Drying</td>
         <td>&#8377;10</td>
@@ -56,17 +75,19 @@
       </tr>
     </table>
   </section>
-  <section class="Book">
+  <section class="Book" >
     <h2>Book Now</h2>
-    <label for="name">User name</label>
+    <form>
+    <label for="name">User name:</label>
     <input type="text" id="name">
-    <label for="email">Email</label>
+    <label for="email">Email:</label>
     <input type="email" id="email">
-    <label for="phone">Phone No.</label>
+    <label for="phone">Phone No.:</label>
     <input type="tel" id="phone">
     <input type="submit">
+    </form>
   </section>
-  <section class="Footer">
+  <section class="Footer" id="footer">
     Contact us : info@laundrymart.com
   </section>
 </body>
